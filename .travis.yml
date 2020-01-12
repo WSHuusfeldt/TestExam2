@@ -21,7 +21,7 @@ script:
   - npm install
   - npm install -g surge
   - npm run build
-  - surge --project ./build --domain william-testexam2.surge.sh
+  - surge --project ./build --domain testexam2.williamhuusfeldt.dk
 
 services:
    - mysql
